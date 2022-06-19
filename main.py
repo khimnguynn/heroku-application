@@ -1,6 +1,4 @@
-from requests import Session
+from tkinter import *
+root = Tk()
 
-ses = Session()
-
-res = ses.get("https://api.ipify.org?format=json").json()
-print(res["ip"])
+root.mainloop()
